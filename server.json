@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/water-levels",
+  "title": "Water Levels",
+  "description": "Lake and reservoir water levels from satellite radar altimetry —",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/water-levels",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-water-levels",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/water-levels/mcp"
+    }
+  ]
+}
