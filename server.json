@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/water-levels",
   "title": "Water Levels",
   "description": "Lake and reservoir water levels from satellite radar altimetry —",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/water-levels",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-water-levels",
