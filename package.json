@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-water-levels",
-  "version": "0.1.2",
-  "description": "Lake and reservoir water levels from satellite radar altimetry —",
+  "version": "0.2.0",
+  "description": "Lake and reservoir water levels from satellite radar altimetry — NASA GSFC Global Water Monitor, 518 inland water bodies worldwide, TOPEX/Poseidon through Sentinel-6A, 1992 to the present. Keyless.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-water-levels": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "water-levels"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-water-levels.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/water-levels",
   "pipeworx": {
-    "sourceHash": "v1-c3d4b13f318e63fdebe136bec64d4ee15b88fae64130e356a55a0b5b498f0c26",
-    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
+    "mode": "gateway",
+    "slug": "water-levels",
+    "gatewaySlug": "water-levels",
+    "sourceHash": "v1-57a4f9d706618d30f4108e005aab51768a691bdaa09dc4f467950931dd4a29d7",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
