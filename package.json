@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-water-levels",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Lake and reservoir water levels from satellite radar altimetry — NASA GSFC Global Water Monitor, 518 inland water bodies worldwide, TOPEX/Poseidon through Sentinel-6A, 1992 to the present. Keyless.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "water-levels",
     "gatewaySlug": "water-levels",
-    "sourceHash": "v1-57a4f9d706618d30f4108e005aab51768a691bdaa09dc4f467950931dd4a29d7",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-aa600476961efa68005a060d4492f975468385c42fa3f4edb61ce597265734fe",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
